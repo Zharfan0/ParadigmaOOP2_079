@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5289a491-8289-4917-b194-a3d35eb8e603}</ProjectGuid>
-    <RootNamespace>ParadigmaOOP2</RootNamespace>
+    <ProjectGuid>{dbce4785-9ee4-4f59-a685-891de51ce5df}</ProjectGuid>
+    <RootNamespace>ProgramNoOverriding</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ProgramMultiWaris</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ParadigmaOOP2.cpp" />
+    <ClCompile Include="ProgramNoOverriding.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
